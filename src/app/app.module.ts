@@ -24,6 +24,8 @@ import { ForgotPasswordComponent } from './components/forgot-password/forgot-pas
 import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
 // Auth service
 import { AuthService } from "./shared/services/auth.service";
+// route guard
+
 
 
 @NgModule({

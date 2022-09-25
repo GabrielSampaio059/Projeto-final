@@ -13,6 +13,9 @@ import { ConversorRoutes } from './conversor';
 import { TarefaRoutes } from './tarefas';
 import { JogoDaVelhaRoutes } from './jogo-da-velha';
 
+// route guard
+import { AuthGuard } from './shared/guard/auth.guard';
+
 export const routes: Routes = [
 	{ path: '', redirectTo: '/sign-in', pathMatch: 'full' },
   	{ path: 'sign-in', component: SignInComponent },
