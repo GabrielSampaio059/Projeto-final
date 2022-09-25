@@ -22,7 +22,8 @@ import { SignInComponent } from './components/sign-in/sign-in.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
 import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
-
+// Auth service
+import { AuthService } from "./shared/services/auth.service";
 
 
 @NgModule({
@@ -51,7 +52,7 @@ import { VerifyEmailComponent } from './components/verify-email/verify-email.com
     AngularFireDatabaseModule,
 
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
