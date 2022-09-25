@@ -5,12 +5,13 @@ import { Observable } from 'rxjs';
 export class DadosService {
 
 	readonly dados = [
-        ['Janeiro', 33],
-        ['Fevereiro', 68],
-        ['Março', 49],
-        ['Abril', 15],
-        ['Maio', 80],
-        ['Junho', 27]
+        ['Coxinhas', 60],
+        ['Empadinha', 67],
+        ['Kibe', 70],
+        ['Bolinha', 40],
+        ['Enroladinho', 80],
+        ['Risoles', 90],
+		['cigarrete',50]
     ]
 
 	constructor() {}

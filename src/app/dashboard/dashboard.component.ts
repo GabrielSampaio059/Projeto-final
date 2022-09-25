@@ -154,7 +154,7 @@ export class DashboardComponent implements OnInit {
    */
   obterOpcoes(): any {
   	return {
-    	'title': 'Quantidade de cadastros primeiro semestre',
+    	'title': 'Quantidade de Salgadinhos',
         'width': 400,
         'height': 300
     };
